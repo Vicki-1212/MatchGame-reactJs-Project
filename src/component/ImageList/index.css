@@ -1,0 +1,15 @@
+.list-items {
+  list-style-type: none;
+}
+
+.image-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.small-image {
+  width: 150px;
+  height: 157px;
+  margin-right: 10px;
+}

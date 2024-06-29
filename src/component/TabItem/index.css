@@ -1,0 +1,24 @@
+.tab-list-items {
+  list-style-type: none;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 25px;
+  }
+}
+
+.hover {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}

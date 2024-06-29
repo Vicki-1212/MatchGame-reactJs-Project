@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.nav-bar {
+  background-color: #2c0e3a;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    height: 130px;
+  }
+}
+
+.logo {
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 50px;
+  }
+}
+
+.score-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .score-container {
+    padding-right: 40px;
+  }
+}
+
+.score-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-name {
+    font-size: 25px;
+  }
+}
+
+.score-count {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-count {
+    font-size: 30px;
+  }
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.timer-image {
+  height: 20px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-image {
+    height: 35px;
+  }
+}
+
+.timer-count {
+  color: #fec653;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-count {
+    font-size: 30px;
+  }
+}
+
+.match-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-game-container {
+    padding: 60px;
+  }
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-image {
+  width: 80%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  width: 400px;
+}
+
+.image-list-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-left: 0px;
+}
+
+.gameOver-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .gameOver-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 70vh;
+    width: 600px;
+  }
+}
+
+.gameOver-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.gameOver-scoreName {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.trophy-image {
+  height: 200px;
+}
+
+.gameOver-score {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.gameOver-button {
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.reset-image {
+  height: 20px;
+  margin-right: 15px;
+}
